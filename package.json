@@ -1,0 +1,21 @@
+{
+	"name": "assyrian",
+	"version": "0.0.1",
+	"description": "A simple 2D Canvas rendering engine, inspired by BabylonJS",
+	"main": "src/assyrian.js",
+	"scripts": {
+		"format:check": "npx prettier --check *.ts",
+		"format:fix": "npx prettier --write *.ts",
+		"format": "npm run format:check && npm run format:fix",
+		"lint:check": "npx eslint *.ts",
+		"lint:fix": "npx eslint --fx *.ts",
+		"lint": "npm run lint:check && npm run lint:fix",
+		"test": "npm run format:check && npm run lint:check"
+	},
+	"author": "Dr. Vortex",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^8.26.0",
+		"prettier": "^2.7.1"
+	}
+}

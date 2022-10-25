@@ -1,0 +1,19 @@
+{
+		"env": {
+			"es2022": true,
+			"browser": true
+		},
+		"extends": "eslint:recommended",
+		"overrides": [
+		],
+		"parserOptions": {
+			"ecmaVersion": "latest"
+		},
+		"rules": {
+			"no-useless-escape": "warn",
+			"no-unused-vars": "warn",
+			"no-mixed-spaces-and-tabs": "warn",
+			"no-unreachable": "warn",
+			"no-fallthrough":"off"
+		}
+}
